@@ -10,7 +10,7 @@
 header{
     background-color: black;
     min-height: 150px;
-    margin: 0px auto 20px auto; 
+    margin: 0px auto 0px auto; 
     color: white;
     text-align: center;
     padding: 40px 0px 30px 0px;
@@ -18,7 +18,7 @@ header{
 }
 
 header > h1 {
-    font-size: 6.2em;
+    font-size: 10vw;
     font-weight: bold;
     font-family: 'Passion One', cursive;
     font-variant: small-caps;
@@ -36,50 +36,46 @@ body{
     font-family: 'Sriracha', cursive;
 }
 
-main{
+section{
+    padding: 10vh 0px 10vh 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+
 
 }
-.cordel{
-    font-size: 2.2em;
-    min-height: 400px;
-
-    padding: 40px;
-    
+section p {
+    padding-bottom: 2em;
 }
+
 .imagem{
-    font-size: 2.2em;
-    width: 100vw;
-    min-height: 600px;
-    
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
 }
+
+
+
 
 .imagem  p {
     display: inline-block;
     text-align: justify;
-    line-height: 2em;
     color: white;
     background-color: rgba(0, 0, 0, 0.527);
     
  
 }
 .imagem#v02{
-    background-image: url('/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center right;
-    margin: 50px 0px 50px 0px;
-    padding: 60px 30px 60px 30px;
+    background-position: center center;
 
 }
 
 .imagem#v05{
-    background-image: url('/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
-    margin: 50px 0px 50px 0px;
-    padding: 80px 30px 20px 30px;
+
 
 }
 
